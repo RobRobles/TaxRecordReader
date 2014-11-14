@@ -1,4 +1,4 @@
 TaxRecordReader
 ===============
 
-This is the follow up to TaxRecordWriter
+This is the follow up to TaxRecordWriter. This program takes in the output of TaxRecordWriter and reads it in and out puts the propper data, even if there is an offset from one block to another. To get a better idea of how this works you can add more and more records to TaxRecord Writer and it will still properly read the data in. This is a neat program. You have a program that writes messages in binary and reads/translate them back to regular text. For fun you can use this to send messages to and from someone as long as they have the same programs to read and write. You can modfiy this code to take in strings (text) and encode it in binary, or you can use this to save your passwords or personal data on your computer, if someone trys to open up this .bin file they wont know what they are looking at....Most People wont. 
